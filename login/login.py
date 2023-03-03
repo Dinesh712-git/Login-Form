@@ -35,7 +35,7 @@ global entry2
 
 
 Label(root,text="username").place(x=20,y=20)
-Label(root,text="password").place(x=20,y=70)
+Label(root,text="password",show("*").place(x=20,y=70)
 
 entry1=Entry(root,bd=5)
 entry1.place(x=140,y=20)
